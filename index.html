@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Site Simples com Tailwind</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="tailwind.css" rel="stylesheet" />
+</head>
+
+<body class="flex flex-col justify-between min-h-screen">
+  <header class="flex justify-around bg-red-600 p-2">
+    <h1 class="text-white font-black text-xl">Senai News</h1>
+    <a class="text-white font-semibold" href="">HOME</a>
+    <a class="text-white font-semibold" href="">SOBRE</a>
+    <a class="text-white font-semibold" href="">CONTATO</a>
+  </header>
+  <main class="mx-6 flex-1">
+    <h2 class="mt-4">Principais notícias</h2>
+    <div class="flex justify-around flex-wrap">
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl7WCZAWYHzdXHXpS6u21hpr_pjSrep8-g5A&s/300x200"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Taylor Swift Entra para a Disputa Presidencial dos EUA: A Pop Star Agora é Candidata
+          à Casa Branca</h3>
+        <p>Em uma reviravolta surpreendente no cenário político americano, a famosa cantora e compositora Taylor Swift
+          anunciou hoje sua candidatura à presidência dos Estados Unidos.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img
+          src="https://s2.glbimg.com/znYLiq6WQDbnaZWgO-ELacZ6y8o=/620x465/s.glbimg.com/jo/g1/f/original/2014/10/19/stiago_5.jpg"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Crise na carne: saiba como criar um boi em casa</h3>
+        <p>Embora possa parecer uma tarefa desafiadora, com o planejamento adequado e o conhecimento necessário, é
+          possível transformar essa necessidade em uma prática sustentável. Veja o guia completo aqui!</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKBSAYwFVEi9rYeZgMEz9TTLqrEqZouQxJow&s/300x200"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Bomba: Neymar e Bruna Marquizene reatam relacionamento</h3>
+        <p>Em uma declaração conjunta, eles disseram estar prontos para “jogar juntos novamente” e “marcar muitos gols
+          no coração um do outro”. A reconciliação gerou uma série de reações nas redes sociais, com os fãs celebrando a
+          volta do icônico casal e especulando sobre possíveis planos futuros.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://osegredo.com.br/wp-content/uploads/2024/04/Virginia_tour_mansao-450x300.jpg.webp"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Virgínia abre tour guiado na sua nova mansão!</h3>
+        <p>A influenciadora Virgínia Fonseca acaba de abrir as portas de sua nova mansão para um tour guiado exclusivo,
+          oferecendo aos fãs uma visão íntima de seu novo lar. "Tô precisando pagar os boletos da obra" - relata a
+          influenciadora.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://files.sunoresearch.com.br/p/uploads/2018/09/Elon-Musk-2.jpg" alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Elon Musk declara que fará um continente artificial </h3>
+        <p>Elon Musk revelou seu mais novo projeto audacioso: a criação de um continente artificial, que ele pretende
+          chamar de “Musklandia”. “Se estamos indo para o espaço, por que não criar nosso próprio pedaço de terra
+          também?”, disse Musk em uma entrevista.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img
+          src="https://fortissima.com.br/wp-content/uploads/2014/02/dietas-da-moda-tt-width-515-height-317-bgcolor-FFFFFF.jpg"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Nova Dieta Revolucionária Usa Apenas Alimentos Invisíveis e Sem Calorias</h3>
+        <p>Em uma inovação radical no mundo da nutrição, um novo plano alimentar foi lançado que promete a perda de peso
+          instantânea e eterna: a dieta dos alimentos invisíveis. O conceito é simples: você come o que quiser, mas
+          apenas se a comida for invisível.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://www.plantasonya.com.br/wp-content/img/formigas-miudas.webp" alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Descoberto o Verdadeiro Motivo das Formigas Estarem Sempre em Fileira: Estão
+          Participando de um Concurso de Dança</h3>
+        <p>Cientistas anunciaram que a razão pela qual as formigas se movem em fileiras perfeitamente organizadas é
+          porque elas estão participando de um concurso de dança secreto promovido por uma sociedade de insetos
+          avançados.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+      <div class="p-2 flex flex-col justify-center w-80 itens-center rounded border-2 border-gray">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuBdHKV6Spl9EvXcsqELCNHwsZ0O-WzPXrbA&s"
+          alt="Imagem de uma notícia" />
+        <h3 class="font-bold mt-2">Starbucks Lança Linha de Bebidas para "Despertar Seu Animal Interior"</h3>
+        <p>As opções incluem o "Latte Leão" para uma sensação de realeza, o "Espresso Escorpião" para momentos de
+          ousadia, e o "Mocha Macaco" para aqueles que precisam de um toque de travessura.</p>
+        <a class="bg-red-600 p-2 w-full text-center" href="">Ver mais!</a>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-red-600 p-2 text-white text-center">
+    <h4>Todos os direitos reservados - 2024</h4>
+  </footer>
+  <h1></h1>
+</body>
+
+</html>
